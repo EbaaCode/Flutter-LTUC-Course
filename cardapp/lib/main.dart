@@ -61,11 +61,11 @@ class MyApp extends StatelessWidget {
                     margin: const EdgeInsets.all(15.0),
                     padding: const EdgeInsets.all(3.0),
                     decoration: BoxDecoration(
-                      border: Border.all(color: Colors.cyan, width: 3),
+                      border: Border.all(color: Colors.pink, width: 3),
                     ),
                     child: const Text(
                       "Female",
-                      style: TextStyle(fontSize: 20, color: Colors.cyanAccent),
+                      style: TextStyle(fontSize: 20, color: Colors.pinkAccent),
                     ),
                   ),
                 ],
@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
                 margin: const EdgeInsets.all(30.0),
                 child: const Image(
                   image: NetworkImage(
-                      "https://media.discordapp.net/attachments/922205499389280337/1014876480280461352/unknown.png?width=355&height=473"),
+                      "https://media.discordapp.net/attachments/922205499389280337/1014876540967854092/unknown.png?width=353&height=473"),
                   alignment: Alignment.center,
                   fit: BoxFit.fitWidth,
                   width: double.infinity,
@@ -92,7 +92,7 @@ class MyApp extends StatelessWidget {
                       border: Border.all(color: Colors.amber, width: 3),
                     ),
                     child: const Text(
-                      "Kitty",
+                      "Cat",
                       style: TextStyle(fontSize: 20, color: Colors.amberAccent),
                     ),
                   ),
@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
                       border: Border.all(color: Colors.red, width: 3),
                     ),
                     child: const Text(
-                      "2 Months",
+                      "1 Year",
                       style: TextStyle(fontSize: 20, color: Colors.redAccent),
                     ),
                   ),
@@ -114,7 +114,7 @@ class MyApp extends StatelessWidget {
                       border: Border.all(color: Colors.cyan, width: 3),
                     ),
                     child: const Text(
-                      "Female",
+                      "Male",
                       style: TextStyle(fontSize: 20, color: Colors.cyanAccent),
                     ),
                   ),
